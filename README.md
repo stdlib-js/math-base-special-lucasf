@@ -29,7 +29,7 @@ limitations under the License.
   <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
 </details>
 
-# Lucasf
+# lucasf
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -194,7 +194,7 @@ logEachMap( 'lucasf(%d) = %0.1f', x, lucasf );
 
 #### stdlib_base_lucasf( n )
 
-Compute the nth [Lucas number][lucas-number] as a single-precision floating-point number.
+Computes the nth [Lucas number][lucas-number] as a single-precision floating-point number.
 
 ```c
 float out = stdlib_base_lucasf( 0 );
