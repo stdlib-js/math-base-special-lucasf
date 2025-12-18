@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-06)
+## Unreleased (2025-12-18)
 
 <section class="features">
 
@@ -46,6 +46,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`25dd8e1`](https://github.com/stdlib-js/stdlib/commit/25dd8e1fedfc74790135de764cebd854ca6a2fa2) - **bench:** use powf in lucasf [(#9193)](https://github.com/stdlib-js/stdlib/pull/9193) _(by Sagar Ratna Chaudhary)_
 -   [`ed8c19d`](https://github.com/stdlib-js/stdlib/commit/ed8c19d8b677faa8732057de668a6295db649709) - **chore:** add structured package data for `math/base/special/lucasf` [(#8397)](https://github.com/stdlib-js/stdlib/pull/8397) _(by Manvith M, Athan Reines)_
 -   [`81f904d`](https://github.com/stdlib-js/stdlib/commit/81f904da25808197e2ae83ebf9c8b26860855e7c) - **bench:** fix failing C benchmarks by using `round` and `roundf` [(#7980)](https://github.com/stdlib-js/stdlib/pull/7980) _(by Gunj Joshi)_
 -   [`d109efc`](https://github.com/stdlib-js/stdlib/commit/d109efcbb6b3f13f6ca8dfba7bde7a07a1d27614) - **refactor:** modify C implementation to accept `float` instead of `int32` in `math/base/special/lucasf` [(#7939)](https://github.com/stdlib-js/stdlib/pull/7939) _(by Gunj Joshi)_
@@ -62,7 +63,7 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Devshree Bhati
@@ -70,6 +71,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 -   Harsh Yadav
 -   Karan Anand
 -   Manvith M
+-   Sagar Ratna Chaudhary
 
 </section>
 
