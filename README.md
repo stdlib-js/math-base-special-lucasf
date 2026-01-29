@@ -68,6 +68,11 @@ L_n = \begin{cases}2 & \textrm{if}\ n = 0\\1 & \textrm{if}\ n = 1\\L_{n-1} + L_{
 ## Usage
 
 ```javascript
+import lucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-lucasf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-lucasf/tags). For example,
+
+```javascript
 import lucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-lucasf@v0.1.0-esm/index.mjs';
 ```
 
@@ -140,7 +145,7 @@ var v = lucasf( NaN );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import lucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-lucasf@v0.1.0-esm/index.mjs';
+import lucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-lucasf@esm/index.mjs';
 
 var x = discreteUniform( 10, 0, 34, {
     'dtype': 'int32'
