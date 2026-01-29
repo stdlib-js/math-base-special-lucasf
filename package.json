@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-lucasf",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Compute the nth Lucas number as a single-precision floating-point number.",
   "license": "Apache-2.0",
   "author": {
@@ -42,7 +42,7 @@
   "dependencies": {
     "@stdlib/constants-float32-max-safe-nth-lucas": "github:stdlib-js/constants-float32-max-safe-nth-lucas#main",
     "@stdlib/math-base-assert-is-nanf": "^0.2.2",
-    "@stdlib/math-base-assert-is-nonnegative-integerf": "github:stdlib-js/math-base-assert-is-nonnegative-integerf#main",
+    "@stdlib/math-base-assert-is-nonnegative-integerf": "^0.1.0",
     "@stdlib/math-base-napi-unary": "^0.2.4",
     "@stdlib/utils-library-manifest": "^0.2.3"
   },
