@@ -68,7 +68,7 @@ L_n = \begin{cases}2 & \textrm{if}\ n = 0\\1 & \textrm{if}\ n = 1\\L_{n-1} + L_{
 ## Usage
 
 ```javascript
-import lucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-lucasf@deno/mod.js';
+import lucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-lucasf@v0.1.1-deno/mod.js';
 ```
 
 #### lucasf( n )
@@ -135,7 +135,7 @@ var v = lucasf( NaN );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import lucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-lucasf@deno/mod.js';
+import lucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-lucasf@v0.1.1-deno/mod.js';
 
 var x = discreteUniform( 10, 0, 34, {
     'dtype': 'int32'
